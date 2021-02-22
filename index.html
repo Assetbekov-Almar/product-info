@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Product Info</title>
+</head>
+<body>
+ <div class="border border-primary rounded" id="product-info">
+	<div class="product-inputs">
+		<div class="product-id product-input-details">
+			<label for="id">ID</label>
+			<input class="form-control" type="text" id="id" value="847" readonly>
+		</div>
+
+		<div class="product-name product-input-details">
+			<label for="name">Наименование</label>
+		<input class="form-control" type="text" id="name" value="Апельсин" readonly>
+		</div>
+
+		<div class="product-quantity product-input-details">
+			<label for="quantity">Количество</label>
+		<input class="form-control" type="text" id="quantity" value="1 кг" readonly>
+		</div>
+
+		<div class="product-part-number product-input-details">
+			<label for="part-number">Артикул</label>
+		<input class="form-control" type="text" id="part-number" value="358291" readonly>
+		</div>
+
+		<div class="product-price product-input-details">
+			<label for="price">Цена</label>
+		<input class="form-control" type="text" id="price" value="1.89" readonly>
+		</div>
+
+		<div class="product-currency product-input-details">
+			<label for="currency">Валюта</label>
+		<input class="form-control" type="text" id="currency" value="$" readonly>
+		</div>
+	</div>
+
+	<div class="border-top border-primary"></div>
+
+	<div class="product-checkboxes">
+		<div class="product-checkbox form-check ">
+			<input class="form-check-input" type="checkbox" id="main-info-checkbox">
+			<label class="form-check-label" for="main-info-checkbox">
+				Основная информация
+			</label>
+		</div>
+
+		<div class="product-checkbox form-check">
+			<input class="form-check-input" type="checkbox" id="price-checkbox">
+			<label class="form-check-label" for="price-checkbox">
+				Цена
+			</label>
+		</div>
+
+		<div class="product-checkbox form-check">
+			<input class="form-check-input" type="checkbox" id="part-number-checkbox">
+			<label class="form-check-label" for="part-number-checkbox">
+				Артикул
+			</label>
+		</div>
+	</div>
+
+	<div class="border-top border-primary"></div>
+
+	<div class="product-textarea">
+		<textarea class="form-control" id="textarea-info" rows="3" readonly></textarea>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+<script src="script.js"></script>  
+</body>
+</html>

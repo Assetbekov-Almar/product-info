@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*,*:before,*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#product-info {
+	width: 800px;
+	margin: 20px auto;
+}
+
+#product-info .product-inputs,
+#product-info .product-checkboxes,
+#product-info .product-textarea {
+	margin: 15px 10px;
+}
+
+#product-info .product-input-details {
+	padding: 5px 0;
+}
+
+#product-info .product-input-details input {
+	cursor: context-menu;
+}
+
+#product-info .product-textarea textarea {
+	resize: none;
+}
+
+#product-info .product-checkboxes {
+	display: -moz-box; 
+	display: -webkit-flex; 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#product-info .product-checkboxes .product-checkbox {
+	width: 50%;
+}
+
+
+
